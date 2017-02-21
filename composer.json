@@ -1,0 +1,21 @@
+{
+    "name": "jeroennoten/laravel-contact",
+    "description": "Laravel Contact",
+    "keywords": ["laravel", "contact"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen Noten",
+            "email": "jeroennoten@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JeroenNoten\\LaravelContact\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "~5.2.0|~5.3.0|~5.4.0",
+        "jeroennoten/laravel-package-helper": "^3.1"
+    }
+}
